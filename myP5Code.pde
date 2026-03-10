@@ -5,11 +5,21 @@ setup = function() {
 
   // Draw the sun
   noStroke();
-  fill(239, 227, 185);
+  fill(221, 0, 225);
   ellipse(335, 66, 70, 70);
 
   // Draw the tree and grass once
   text("🌼", 0, 340);
   text("🎈", 0, 200);
+
+  background(99,200,255)
+
+  fill(221,0, 255);
+  var x = 100;
+  while (x < 329) {
+    ellipse(x,94,52,68);
+    x += 60;
+    
+  }
 };
 
